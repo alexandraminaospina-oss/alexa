@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo Sonoro Personal</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Archivo Sonoro Personal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#descripcion">Descripción</a></li>
+            <li><a href="#audios">Audios</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#tabla">Tabla</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- DESCRIPCIÓN -->
+        <section id="descripcion">
+            <h2>Descripción del archivo</h2>
+
+            <p>Este archivo sonoro reúne diferentes sonidos de mi vida cotidiana.</p>
+            <p>Los registros incluyen sonidos del cuerpo, la ciudad, la universidad y la tecnología.</p>
+            <p>El objetivo es mostrar cómo el sonido puede representar experiencias.</p>
+            <p>Cada audio está acompañado de una imagen que representa visualmente el sonido.</p>
+
+            <ul>
+                <li>Sonidos del cuerpo</li>
+                <li>Sonidos de la ciudad</li>
+                <li>Sonidos de la universidad</li>
+                <li>Sonidos tecnológicos</li>
+            </ul>
+        </section>
+
+        <!-- AUDIOS -->
+        <section id="audios">
+            <h2>Colección sonora</h2>
+
+            <article>
+                <h3>Sonidos del cuerpo</h3>
+                <p>Registro del momento de despertar.</p>
+
+                <figure>
+                    <img src="imagenes/sonidos del cuerpo.jpeg" alt="Sonidos del cuerpo.jpeg">
+                    <figcaption>Representación sonido del cuerpo</figcaption>
+                </figure>
+                <audio controls>
+                    <source src="audios/DESPERTAR.ogg" type="audio/ogg">
+                </audio>
+            </article>
+
+            <article>
+                <h3>Sonidos de la ciudad</h3>
+                <p>Ambiente urbano y movimiento.</p>
+
+                <figure>
+                    <img src="imagenes/recorrido 1.jpeg" alt="recorrido 1 .jpeg">
+                    <figcaption>Representación del sonido de la ciudad al momento de llegar a mi casa </figcaption>
+                </figure>
+
+                <audio controls>
+                    <source src="audios/sonido de la ciudad 1.ogg" type="audio/ogg">
+                </audio>
+                <figure>
+                    <img src="imagenes/recorrido 2.jpeg" alt="recorrido 2 .jpeg">
+                    <figcaption>Representación del sonido de la ciudad al momento de llegar a mi casa </figcaption>
+                </figure>
+
+                <audio controls>
+                    <source src="audios/sonido de la ciudad 2.ogg" type="audio/ogg">
+                </audio>
+                <figure>
+                    <img src="imagenes/recorrido 3.jpeg" alt="recorrido 3 .jpeg">
+                    <figcaption>Representación del sonido del recorrido de la universidad a mi casa </figcaption>
+                </figure>
+
+                <audio controls>
+                    <source src="audios/recorrido 3.mp4" type="audio/mp4">
+                </audio>
+
+                <!-- Universidad -->
+
+                <article>
+                    <h3>Sonidos de la universidad</h3>
+                    <p>Lugares de la universidad en las actividades académicas.</p>
+
+                    <figure>
+                        <img src="imagenes/universidad 1.jpeg" alt=" universidad 1.jpeg">
+                        <figcaption>Representación del ambiente en hora del almuerzo</figcaption>
+                    </figure>
+
+                    <audio controls>
+                        <source src="audios/Audio universidad 1.ogg" type="audio/ogg">
+                    </audio>
+                    <figure>
+                        <img src="imagenes/universidad 2.jpeg" alt=" universidad 2.jpeg">
+                        <figcaption>Representación del en plazoleta de comida</figcaption>
+                    </figure>
+
+                    <audio controls>
+                        <source src="audios/Audio universidad 2.ogg" type="audio/ogg">
+                    </audio>
+                    <figure>
+                        <img src="imagenes/universidad 3.jpeg" alt=" universidad 3.jpeg">
+                        <figcaption>Representación del ambiente en la salida de la universidad</figcaption>
+
+                    </figure>
+                    <audio controls>
+                        <source src="audios/Audio universidad 3.ogg" type="audio/ogg">
+                    </audio>
+                    <article>
+
+                        <!-- Tecnologicos-->
+                        <article>
+
+                            <h3>Sonidos tecnológicos</h3>
+                            <p>Máquinas y dispositivos en funcionamiento.</p>
+
+                            <figure>
+                                <img src="imagenes/sonido tecnologico 1.jpeg" alt="Sonido tecnológico 1.jpeg">
+                                <figcaption>maquina de coser</figcaption>
+                            </figure>
+
+                            <audio controls>
+                                <source src="audios/Sonido avance tecnologico 1.ogg" type="audio/ogg">
+                            </audio>
+                            <figure>
+                                <img src="imagenes/sonido tecnologico 2.jpeg" alt="Sonido tecnológico 2.jpeg">
+                                <figcaption>horno microhondas</figcaption>
+                            </figure>
+
+                            <audio controls>
+                                <source src="audios/Sonido tecnológico 2.mp3" type="audio/mp3">
+                            </audio>
+
+                            <figure>
+                                <img src="imagenes/Sonido tecnológico 3e.jpeg" alt="Sonido tecnológico 3e.jpeg">
+                                <figcaption>haciendo uñas postizas</figcaption>
+                            </figure>
+
+                            <audio controls>
+                                <source src="audios/Sonido tecnológico 3.ogg" type="audio/ogg">
+                            </audio>
+                        </article>
+
+        </section>
+
+
+        <section id="videos">
+            <h2>Colección visual</h2>
+
+            <article>
+                <h3>Recorrido</h3>
+                <p>Trayecto hacia la universidad.</p>
+
+                <video controls>
+                    <source src="video/Recorrido.mp4" type="video/mp4">
+                </video>
+            </article>
+
+            <article>
+                <h3>Objeto</h3>
+                <p>Manipulación de gomitas.</p>
+
+                <video controls>
+                    <source src="video/Objeto.mp4" type="video/mp4">
+                </video>
+            </article>
+        </section>
+
+        <!-- ASIDE -->
+        <aside>
+            <h2>Información adicional</h2>
+            <p>Se recomienda usar audífonos para una mejor experiencia.</p>
+        </aside>
+
+        <!-- TABLA -->
+        <section id="tabla">
+            <h2>Registro del archivo sonoro</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del sonido</th>
+                        <th>Lugar</th>
+                        <th>sesacion</th>
+                        <th>Textura</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cuerpo</td>
+                        <td>Casa</td>
+                        <td>calma vulneravilidad naturalidad</td>
+                        <td>suave</td>
+                    </tr>
+                    <tr>
+                        <td>Ciudad</td>
+                        <td>Calle</td>
+                        <td>caos cotidiano</td>
+                        <td>Densa</td>
+                    </tr>
+                    <tr>
+                        <td>Ciudad 2</td>
+                        <td>Calle</td>
+                        <td>tranquilidad ligera cotidiano</td>
+                        <td>ritmica</td>
+                    </tr>
+                    <tr>
+                        <td>Ciudad 3</td>
+                        <td>Calle</td>
+                        <td>impacto intensidad</td>
+                        <td>Densa intensa</td>
+                    </tr>
+                    <tr>
+                        <td>Universidad</td>
+                        <td>plazoleta de comidas</td>
+                        <td>saturacion</td>
+                        <td>densa</td>
+                    </tr>
+                    <tr>
+                        <td>Universidad 2</td>
+                        <td>plazoleta universidad</td>
+                        <td>tranquilidad cotidiano</td>
+                        <td>densa </td>
+                    </tr>
+                    <tr>
+                        <td>Universidad 3</td>
+                        <td>salida de la universidad</td>
+                        <td>suavidad tranquilidad</td>
+                        <td>suave</td>
+                    </tr>
+                    <tr>
+                        <td>Tecnología</td>
+                        <td>Trabajo </td>
+                        <td>irritante</td>
+                        <td>fuerte</td>
+                    </tr>
+                    <tr>
+                        <td>Tecnología</td>
+                        <td>de visita en ek trabajo de mi mama</td>
+                        <td>relajante</td>
+                        <td>suave</td>
+                    </tr>
+                    <tr>
+                        <td>Tecnología</td>
+                        <td>casa</td>
+                        <td>molestia leve</td>
+                        <td>ritmica</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section id="formulario">
+            <h2>Sugerir un sonido</h2>
+
+            <form>
+                <label>Nombre del sonido:</label>
+                <input type="text">
+
+                <br><br>
+
+                <label>Descripción:</label>
+                <textarea></textarea>
+
+                <br><br>
+
+                <button>Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Aquí finaliza la página</p>
+    </footer>
+
+</body>
+
+</html>
